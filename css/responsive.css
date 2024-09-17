@@ -1,91 +1,120 @@
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+}
 
 @media (max-width: 992px) {
-    .hero_area {
-        height: auto;
-    }
+  .hero_area {
+    height: auto;
+  }
 
-    .custom_nav-container .nav_search-btn {
-        background-position: center;
-        margin-top: 10px;
-    }
+  .custom_nav-container .nav_search-btn {
+    background-position: center;
+    margin-top: 10px;
+  }
 
-    .slider_section {
-        padding-top: 370px;
-        padding-bottom: 75px;
-    }
+  .slider_section {
+    padding-top: 370px;
+    padding-bottom: 75px;
+  }
 
-    .info_items {
-        width: 100%;
-    }
-    
-    .logo-box {
-        position: relative;
-        z-index: 10;
-    }
-    
-    .logo-box img {
-        position: relative;
-        top: -20px; /* Ajuste o valor para levantar a logo */
-    }
-    .hero_area {
-        background-image: url(../images/barbearia-tele.jpg);
-    }
+  .info_items {
+    width: 100%;
+  }
 
-    .img-box {
-        max-width: 230px; /* Ajuste o valor conforme necessário */
-        max-height: 250px; /* Ajuste o valor conforme necessário */
-        
-    }
+  .logo-box {
+    position: relative;
+    z-index: 10;
+  }
 
-    .trainer_section {
-        background-image: url(../images/barber.jpg);
-    }
+  .logo-box img {
+    position: relative;
+    top: -20px; /* Ajuste o valor para levantar a logo */
+  }
+  .hero_area {
+    background-image: url(../images/barbearia-tele.jpg);
+  }
+
+  .img-box {
+    max-width: 230px; /* Ajuste o valor conforme necessário */
+    max-height: 250px; /* Ajuste o valor conforme necessário */
+  }
+
+  .trainer_section {
+    background-image: url(../images/barber.jpg);
+  }
 }
 
 @media (max-width: 768px) {
-    .contact_section .form_container {
-        padding: 45px 0;
-    }
+  .contact_section .form_container {
+    padding: 45px 0;
+  }
 
-    .info_items {
-        flex-direction: column;
-        align-items: center;
-    }
+  .info_items {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .contact_section .heading_container {
-        justify-content: center;
-    }
+  .contact_section .heading_container {
+    justify-content: center;
+  }
 
-    .contact_section .heading_container h2::before {
-        left: 50%;
-        transform: translateX(-50%);
-    }
+  .contact_section .heading_container h2::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-    .contact_section button {
-        margin: 45px auto 0 auto;
-    }
+  .contact_section button {
+    margin: 45px auto 0 auto;
+  }
+
+  .slider_section .detail-box h1 {
+    font-size: 2.5rem;
+  }
+  .slider_section .detail-box h2 {
+    font-size: 1.5rem;
+  }
+  .slider_section .detail-box a {
+    padding: 8px 20px;
+  }
+  .us_section .us_container .box .img-box {
+    height: 80px;
+  }
 }
-
 
 @media (max-width: 576px) {
-    .slider_section .detail-box h1 {
-        font-size: 3rem;
-    }
+  .slider_section .detail-box h1 {
+    font-size: 3rem;
+  }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .slider_section .detail-box h1 {
+      font-size: 1.8rem;
+    }
+    .slider_section .detail-box h2 {
+      font-size: 1.2rem;
+    }
+    .slider_section .detail-box a {
+      padding: 6px 15px;
+    }
+    .us_section .us_container .box .img-box {
+      height: 60px;
+    }
+  }
+
+@media (max-width: 480px) {
+}
 
 @media (max-width: 420px) {
-    .slider_section .detail-box h1 {
-        letter-spacing: .3rem;
-    }
+  .slider_section .detail-box h1 {
+    letter-spacing: 0.3rem;
+  }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+}
 
 @media (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
+  .container {
+    max-width: 1170px;
+  }
 }
