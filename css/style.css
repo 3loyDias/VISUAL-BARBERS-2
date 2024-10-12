@@ -699,25 +699,27 @@ a:focus {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .pricing_card {
-  background: #ffffffbb;
-  border: 1px solid #ddd;
+  background: #ffffff59;
+  border: 1px solid #ffffff00;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: 30%;
   margin: 10px;
   text-align: center;
+  position: relative;
 }
 
 .pricing_card h1 {
-  color: black;
+  color: rgb(255, 255, 255);
   margin-bottom: 10px;
+  position: relative;
   font-size: 1.6rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
 }
 
 .pricing_card h2 {
@@ -736,11 +738,24 @@ a:focus {
   color: #555;
 }
 
-.price {
+
+.price-corte-barba {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
-  
+  color: #ffffff;
+}
+
+.price-corte-cabelo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+
+.price-corte-somente-barba {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 /* Estilo responsivo para dispositivos móveis */
